@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>Sent successfully</title>
+        <link rel="stylesheet" href="successstyle.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="popUp">
+                <img src="tick.png">
+                <h2>Sent Successfully!</h2>
+                <p>Your details have been submitted successfully. Thank You!</p>
+                <button id="close" type="button">Close</button>
+            </div>
+        </div>
+
+        <script>
+            let btnClose = document.querySelector('#close');
+            let myTab;
+
+            btnClose.addEventListener('click', ()=>{
+               this.window.close();
+            });
+        </script>
+    </body>
+</html>
